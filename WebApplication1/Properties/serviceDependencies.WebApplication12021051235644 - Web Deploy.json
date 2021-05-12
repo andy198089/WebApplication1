@@ -1,13 +1,9 @@
 {
   "dependencies": {
     "mssql1": {
-      "type": "mssql.onprem",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/andy1980dbserver/databases/WebApplication1_db",
+      "type": "mssql.azure",
       "connectionId": "AcountConnectionString1",
-      "secretStore": "AzureAppSettings"
-    },
-    "mssql2": {
-      "type": "mssql.onprem",
-      "connectionId": "OrdersConnectionString",
       "secretStore": "AzureAppSettings"
     }
   }
